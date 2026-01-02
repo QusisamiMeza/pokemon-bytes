@@ -1,0 +1,96 @@
+.page-team-id {
+    background-color: #f9f9f9;
+    text-align: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.name{
+    text-transform: capitalize;
+}
+
+.pokemon-img {
+    max-width: 40%;
+    width: 200px;
+    height: auto;
+}
+.bloque1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.page-team-id h1 {
+    justify-content: center;
+    width: 45%;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: solid;
+    margin-bottom: 1rem;
+    color: rgb(134, 27, 8);
+}
+
+.tabla-team{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: right;
+    align-items: center;
+    width: 40%;
+    margin: 20px 0; 
+    border: 3px solid #ffb300;
+    border-collapse: collapse;
+}
+
+.tabla-team tr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffdc8a;
+    border: 1px solid #ffb300; 
+}
+
+.tabla-team td{
+    width: 100%;
+    padding: 12px;
+    text-decoration: solid;
+    text-align: left;
+    border-left: 1px solid #ffb300;
+}
+.tabla-team td:first-child {
+    font-weight: bold; 
+    background-color: #ffd165; 
+}
+
+
+.tabla-members {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0; 
+    border: 3px solid #d42926;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabla-members th {
+    background-color: #e6514e;
+    padding: 8px;
+    font-size: 1.2rem;
+    border-bottom: #d42926;
+}
+.tabla-members tr {
+    background-color: #f1abaa;
+    border-bottom: 1px solid #d42926;
+}
+
+.tabla-members td {
+    padding: 8px;
+    border-bottom: 1px solid #d42926;
+    text-transform: capitalize;
+    border-left: 1px solid #d42926;
+
+}
+.titulos{
+    font-weight: bold; 
+    background-color: #f87674; 
+}

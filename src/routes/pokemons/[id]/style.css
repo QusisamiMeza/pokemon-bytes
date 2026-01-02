@@ -1,0 +1,131 @@
+
+.page-pokemon {
+    background-color: #f9f9f9;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.name{
+    text-transform: capitalize;
+}
+.bloque1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.bloque2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bloque3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-img {
+    max-width: 50%;
+    width: 500px;
+    height: auto;
+}
+
+.page-pokemon h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(134, 27, 8);
+    text-transform: capitalize;
+}
+
+.tabla{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: right;
+    width: 45%;
+    margin: 20px 0; 
+    border: 3px solid #2e5f00;
+    border-collapse: collapse;
+}
+.tabla tr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+    border: 1px solid #2e5f00; 
+}
+
+.tabla td{
+    width: 100%;
+    padding: 12px;
+    text-decoration: solid;
+    text-align: left;
+    border-left: 1px solid #2e5f00;
+}
+.tabla td:first-child {
+    font-weight: bold; 
+    background-color: #6ab96c; 
+}
+
+.tabla-stat{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: right;
+    width: 50%;
+    margin: 20px 0; 
+    border: 3px solid #ff6b01;
+    border-collapse: collapse;
+}
+.tabla-stat tr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #ffbe8f;
+    border: 1px solid #ff8833;
+}
+
+.tabla-stat td{
+    width: 100%;
+    padding: 12px;
+    text-decoration: solid;
+    text-align: left;
+    border-left: 1px solid #ff8833;
+}
+.tabla-stat td:first-child {
+    font-weight: bold; 
+    background-color: #ffad72; 
+}
+.tabla-moves {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    width: 90%;
+    margin: 20px 0; 
+    border: 3px solid #d42926;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tabla-moves th {
+    background-color: #e6514e;
+    padding: 8px;
+    font-size: 1.2rem;
+    border-bottom: #d42926;
+}
+.tabla-moves tr {
+    width:30%;
+    background-color: #f1abaa;
+    border-bottom: 1px solid #d42926;
+}
+
+.tabla-moves td {
+    padding: 8px;
+    border-left: 1px solid #d42926;
+    text-transform: capitalize;
+}
+
+.titulos{
+    font-weight: bold;
+    background-color: #f7807e;
+}
+
+.fila-moves{
+    vertical-align: top;
+}

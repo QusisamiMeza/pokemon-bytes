@@ -1,0 +1,169 @@
+/* General Styles */
+.team-fonts {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: medium;
+    color: #333;
+}
+
+.team-heading {
+    text-align: center;
+    margin-top: 2%;
+}
+
+/* Header Styles */
+.team-header {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 2em;
+    background-color: #1e88e5;
+    color: white;
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+/* Form Styles */
+.team-member-form {
+    width: 60%;
+    margin: 2% auto;
+    padding: 2%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-label {
+    display: block;
+    margin: 10px 0;
+}
+
+.custom-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.base-button {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 5px 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.base-button:hover {
+    background-color: #1565c0;
+}
+
+/* Member List Styles */
+.member-list {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.member-list th {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px;
+}
+
+.member-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #e3f2fd;
+}
+
+.member-list tr:nth-child(even) {
+    background-color: #bbdefb;
+}
+
+.member-list tr:nth-child(odd) {
+    background-color: #e3f2fd;
+}
+
+/* Error and Success Messages */
+.error {
+    color: red;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.success {
+    color: green;
+}
+
+/* Typeahead Component */
+.typeahead-component {
+    background-color: #f3f3f3;
+}
+
+.typeahead-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.typeahead-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.typeahead-item:hover {
+    background-color: #f0f0f0;
+}
+
+/* Typeahead Default Overrides */
+[data-svelte-typeahead] {
+    margin-top: 5px;
+}
+
+/* Remove Button Styles */
+.remove-btn {
+    background-color: #e53935;
+    margin-left: 10px;
+}
+
+.remove-btn:hover {
+    background-color: #c62828;
+}
+
+/* Stats Grid Styles */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.stat-item label {
+    display: block;
+}
+
+/* Move Selection List Styles */
+.move-selection-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: start;
+}
+
+/* General List Styles */
+.custom-ul {
+    list-style-type: none;
+    padding: 0;
+}
