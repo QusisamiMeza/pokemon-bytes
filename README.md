@@ -12,13 +12,6 @@ El repositorio está organizado como un monorepo, donde frontend y backend convi
 
 ## Estructura y flujo del proyecto
 
-```text
-.
-├── back/    # Backend (FastAPI + SQLAlchemy + Alembic)
-├── front/   # Frontend (Svelte + Vite)
-└── README.md
-
-```
 El flujo del proyecto sigue los siguientes pasos generales:
 1. Levantar el backend
 2. Levantar el frontend
@@ -76,12 +69,29 @@ Algunas páginas principales:
 Para ver más imágenes ver la carpeta `/img`.
 
 ---
+## División del trabajo
+
+Este proyecto fue desarrollado de manera colaborativa por un equipo de cuatro personas.
+
+- **Gino Rizzuti**: configuración inicial del proyecto y repositorios, modelado de base de datos y migraciones iniciales, desarrollo y revisión de endpoints para Pokémon y Teams, implementación de seeds, y desarrollo del frontend (creación y edición de equipos, typeahead en listados).
+
+- **Lourdes Lier**: modelado de base de datos para habilidades y estadísticas, desarrollo y revisión de endpoints de consulta (Pokémon, Nature y Teams), y desarrollo del frontend (vistas de detalle de Pokémon y Teams, footer).
+
+- **Melina Canal**: modelado de base de datos para Moves, desarrollo y revisión de endpoints relacionados con Moves, ajustes sobre modelos existentes, y desarrollo del frontend (listado y detalle de Moves, navbar).
+
+- **Qusisami Meza**: modelado de base de datos (Species, Pokémon y Types), implementación de seeds, desarrollo y revisión de endpoints relacionados con Pokémon y Teams, y desarrollo del frontend (página de inicio, listado de Pokémon y listado de equipos).
+
+La organización del trabajo se realizó utilizando Trello, lo que permitió una distribución equilibrada de tareas y un desarrollo coordinado del proyecto.
+
+---
 
 ## Objetivos alcanzados
 
 - Desarrollo de un backend que expone una API REST, respetando contratos de comunicación claros entre cliente y servidor.
 
 - Implementación de un frontend web que consume la API y presenta la información de manera clara e interactiva.
+
+- Integración completa entre frontend y backend.
 
 - Uso de estructuras de datos y modelos para representar la información del dominio.
 
@@ -102,4 +112,6 @@ Para ver más imágenes ver la carpeta `/img`.
 - Configuración de entornos de desarrollo reproducibles mediante el uso de entornos virtuales y gestión de dependencias.
 
 - Desarrollo orientado a pruebas, incorporando tests automatizados para validar el funcionamiento del sistema.
+
+- Desarrollo colaborativo en equipo, con división de responsabilidades y revisiones de código.
 
