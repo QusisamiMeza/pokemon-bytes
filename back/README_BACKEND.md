@@ -17,41 +17,29 @@ Asegurate de tener instalados los siguientes componentes:
     cd pokemon-bytes
     ```
 
-2. **Crea un entorno virtual (puede ser python en vez de python3 dependiendo del sistema)**
+1. **Crea un entorno virtual (puede ser python en vez de python3 dependiendo del sistema)**
     ```bash
     python3 -m venv env
     source env/bin/activate
 
 
-3. **Instala las dependencias**
+2. **Instala las dependencias**
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **(Opcional) Moverse a la rama en desarrollo, actualmente:**
+3. **(Opcional) Moverse a la rama en desarrollo, actualmente:**
     ```bash
     git switch parte_2
     git pull
     ```
 
-5. **Aplica las migraciones de la base de datos**
+4. **Aplica las migraciones de la base de datos**
     ```bash
     alembic upgrade head
     ```
 
-6. **Descarga el archivo ZIP con los CSVs necesarios en el siguiente link (Solo disponible para miembros de FIUBA):** <br>
-    [Descargar archivo ZIP](<https://drive.google.com/file/d/1MzvQrJ-kmJ2nrASXOfQ2fDIBsrF4cHfs/view?usp=drive_link>)
-
-7. **Extrae los archivos en el root del repositorio (/pokemon-bytes):**
-    ```bash
-    unzip archivos.zip -d .
-    ```
-    **Nota: Si no se tiene unzip se puede instalar con:**
-    ```bash
-    sudo apt install unzip
-    ```
-
-8. **Ejecutar Servidor (en modo desarrollo):**
+5. **Ejecutar Servidor (en modo desarrollo):**
     **Para desarrollo**
     ```bash
     fastapi dev app/main.py
