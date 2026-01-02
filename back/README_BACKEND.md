@@ -27,7 +27,7 @@ Asegurate de tener instalados los siguientes componentes:
     alembic upgrade head
     ```
 
-4. **Ejecutar Servidor (en modo desarrollo):**
+4. **Ejecutar Servidor (en modo desarrollo para levantar el back):**
     **Para desarrollo**
     ```bash
     fastapi dev app/main.py

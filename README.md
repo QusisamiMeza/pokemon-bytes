@@ -1,8 +1,8 @@
 # POKEMON BYTES
+
 Trabajo grupal desarrollado en la materia de Introducción al Desarrollo de Software
 
 ---
-
 
 **Pokémon Bytes** es un proyecto full stack que combina un **backend en FastAPI** y un **frontend en Svelte** para gestionar y visualizar información relacionada con Pokemones.
 
@@ -49,4 +49,28 @@ front/README_FRONTEND.md
 ---
 
 ## Objetivos alcanzados
+
+- Desarrollo de un backend que expone una API REST, respetando contratos de comunicación claros entre cliente y servidor.
+
+- Implementación de un frontend web que consume la API y presenta la información de manera clara e interactiva.
+
+- Uso de estructuras de datos y modelos para representar la información del dominio.
+
+- Manejo de persistencia de datos mediante una base de datos y migraciones.
+
+- Separación de responsabilidades entre frontend y backend, promoviendo una arquitectura modular y mantenible.
+
+- Aplicación de buenas prácticas de desarrollo de software, incluyendo:
+
+    - Organización del código.
+
+    - Reutilización de componentes.
+
+    - Claridad y legibilidad.
+
+    - Uso de control de versiones con Git.
+
+- Configuración de entornos de desarrollo reproducibles mediante el uso de entornos virtuales y gestión de dependencias.
+
+- Desarrollo orientado a pruebas, incorporando tests automatizados para validar el funcionamiento del sistema.
 
