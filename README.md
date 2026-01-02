@@ -73,13 +73,13 @@ Para ver más imágenes ver la carpeta `/img`.
 
 Este proyecto fue desarrollado de manera colaborativa por un equipo de cuatro personas.
 
-- **Gino Rizzuti**: configuración inicial del proyecto y repositorios, modelado de base de datos y migraciones iniciales, desarrollo y revisión de endpoints para Pokémon y Teams, implementación de seeds, y desarrollo del frontend (creación y edición de equipos, typeahead en listados).
+- **Gino Rizzuti** – [GitHub](https://github.com/Ginorris): configuración inicial del proyecto y repositorios, modelado de base de datos y migraciones iniciales, desarrollo y revisión de endpoints para Pokémon y Teams, implementación de seeds, y desarrollo del frontend (creación y edición de equipos, typeahead en listados).
 
-- **Lourdes Lier**: modelado de base de datos para habilidades y estadísticas, desarrollo y revisión de endpoints de consulta (Pokémon, Nature y Teams), y desarrollo del frontend (vistas de detalle de Pokémon y Teams, footer).
+- **Lourdes Lier** – [GitHub](https://github.com/lourdeslier): modelado de base de datos para habilidades y estadísticas, desarrollo y revisión de endpoints de consulta (Pokémon, Nature y Teams), y desarrollo del frontend (vistas de detalle de Pokémon y Teams, footer).
 
-- **Melina Canal**: modelado de base de datos para Moves, desarrollo y revisión de endpoints relacionados con Moves, ajustes sobre modelos existentes, y desarrollo del frontend (listado y detalle de Moves, navbar).
+- **Melina Canal** – [GitHub](https://github.com/melicanal): modelado de base de datos para Moves, desarrollo y revisión de endpoints relacionados con Moves, ajustes sobre modelos existentes, y desarrollo del frontend (listado y detalle de Moves, navbar).
 
-- **Qusisami Meza**: modelado de base de datos (Species, Pokémon y Types), implementación de seeds, desarrollo y revisión de endpoints relacionados con Pokémon y Teams, y desarrollo del frontend (página de inicio, listado de Pokémon y listado de equipos).
+- **Qusisami Meza** – [GitHub](https://github.com/QusisamiMeza) · [LinkedIn](https://www.linkedin.com/in/qusisami-luciana-meza-taco-229b2839a/): modelado de base de datos (Species, Pokémon y Types), implementación de seeds, desarrollo y revisión de endpoints relacionados con Pokémon y Teams, y desarrollo del frontend (página de inicio, listado de Pokémon y listado de equipos).
 
 La organización del trabajo se realizó utilizando Trello, lo que permitió una distribución equilibrada de tareas y un desarrollo coordinado del proyecto.
 
