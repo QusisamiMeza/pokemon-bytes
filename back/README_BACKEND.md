@@ -11,12 +11,6 @@ Asegurate de tener instalados los siguientes componentes:
 
 ## Instalación
 
-1. **Clona el repositorio:**
-    ```bash
-    git clone git@github.com:Ginorris/pokemon-bytes.git
-    cd pokemon-bytes
-    ```
-
 1. **Crea un entorno virtual (puede ser python en vez de python3 dependiendo del sistema)**
     ```bash
     python3 -m venv env
