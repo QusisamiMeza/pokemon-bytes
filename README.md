@@ -25,6 +25,7 @@ El flujo del proyecto sigue los siguientes pasos generales:
 3. Consumir la API desde la interfaz web
 
 Cada parte se ejecuta por separado desde su respectiva carpeta.
+
 ---
 
 ### Backend
