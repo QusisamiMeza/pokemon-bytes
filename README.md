@@ -54,22 +54,22 @@ Algunas páginas principales:
 
 - Página principal:
     <p align="center">
-        <img src="img/home-short.png" alt="Detalle de equipo Pokémon" width="70%">
+        <img src="img/home-short.png" alt="Detalle de equipo Pokémon" width="80%">
     </p>
 
 - Lista de pokemones:
     <p align="center">
-        <img src="img/pokemons.png" alt="Detalle de equipo Pokémon" width="70%">
+        <img src="img/pokemons.png" alt="Detalle de equipo Pokémon" width="80%">
     </p>
 
 - Lista de movimientos:
     <p align="center">
-        <img src="img/moves.png" alt="Detalle de equipo Pokémon" width="70%">
+        <img src="img/moves.png" alt="Detalle de equipo Pokémon" width="80%">
     </p>
 
 - Teams creados por el usuario:
     <p align="center">
-        <img src="img/teams.png" alt="Detalle de equipo Pokémon" width="70%">
+        <img src="img/teams.png" alt="Detalle de equipo Pokémon" width="80%">
     </p>
 
 
