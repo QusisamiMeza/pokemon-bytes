@@ -1,0 +1,118 @@
+<<<<<<< HEAD
+node_modules
+
+# Output
+.output
+.vercel
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+=======
+### TP2 ###
+archivos.zip
+archivos/
+*.csv
+*.db
+
+### venv ###
+venv/
+.env
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pyvenv.cfg
+pip-selfcheck.json
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+lib/
+lib64/
+share/python-wheels/
+wheels/
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Logs and local settings
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# IDE/editor/project settings
+.pdm.toml
+__pypackages__/
+.pyrightconfig.json
+.ruff_cache/
+.pyre/
+.pytype/
+cython_debug/
+
+## Operating Systems ##
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+>>>>>>> backend

@@ -1,0 +1,83 @@
+
+.page-pokemons {
+    background-color: #f9f9f9;
+    text-align: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.list-pokemon {
+    background-color: #FFF791; 
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 10px;
+    max-width: 1220px;
+    margin: 1.25rem auto 2rem;
+}
+
+.pokemon-box{
+    background-color: #f9f9f9;
+    border: 4px solid #ffd900;
+    padding: 10px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+.pokemon-card h2 {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pokemons-img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.pokemon-name {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin: 4px 0;
+    color: black;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    border: 2px solid #d42926;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.pokemon-name:hover{
+    background-color: #d42926;
+    color: white;
+}
+
+.pokemon-id {
+    display: block;
+    margin: 4px 0;
+}
+
+.pokemon-type small{
+    padding-left: 5px;
+    padding-right: 5px;
+    font-style: italic;
+}
+
+.info-box {
+    background-color: #eeeeee;
+    display: block;
+    text-align: left;
+    max-width: 1220px;
+    margin: 1.25rem auto 2rem;
+    padding: 10px
+}
+
+.pokemon-search {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: left;
+}
