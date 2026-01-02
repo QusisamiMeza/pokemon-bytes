@@ -26,7 +26,6 @@ El flujo del proyecto sigue los siguientes pasos generales:
 
 Cada parte se ejecuta por separado desde su respectiva carpeta.
 
----
 
 ### Backend
 
@@ -37,7 +36,6 @@ El backend está desarrollado con FastAPI y utiliza SQLAlchemy junto con Alembic
 ```
 back/README_BACKEND.md
 ```
----
 
 ### Frontend
 
@@ -49,3 +47,6 @@ El frontend está desarrollado con Svelte y se comunica con la API provista por 
 front/README_FRONTEND.md
 ```
 ---
+
+## Objetivos alcanzados
+

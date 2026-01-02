@@ -22,18 +22,12 @@ Asegurate de tener instalados los siguientes componentes:
     pip install -r requirements.txt
     ```
 
-3. **(Opcional) Moverse a la rama en desarrollo, actualmente:**
-    ```bash
-    git switch parte_2
-    git pull
-    ```
-
-4. **Aplica las migraciones de la base de datos**
+3. **Aplica las migraciones de la base de datos**
     ```bash
     alembic upgrade head
     ```
 
-5. **Ejecutar Servidor (en modo desarrollo):**
+4. **Ejecutar Servidor (en modo desarrollo):**
     **Para desarrollo**
     ```bash
     fastapi dev app/main.py

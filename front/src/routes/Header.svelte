@@ -1,12 +1,10 @@
 <header>
     <div class="presentacion_pag">
-        <img class="img_izq" src="https://www.pngkit.com/png/full/160-1608486_pokemon-characters-png-download-image-pokemon-pikachu.png" alt="https://i.pinimg.com/originals/44/0c/c2/440cc2c2f4abd45f1f563a7165fb6344.png"/>
+        <img class="img_izq" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png" alt="https://i.pinimg.com/originals/44/0c/c2/440cc2c2f4abd45f1f563a7165fb6344.png"/>
         <h1>Pokémon Bytes</h1>
         <img class="img_der" src="https://i.pinimg.com/originals/8a/2a/73/8a2a73c4e85a9efc11a230e285a0db53.png" alt="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/640px-Pokebola-pokeball-png-0.png"/>
     </div>
-    <nav>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1024px-International_Pok%C3%A9mon_logo.svg.png" alt="https://png.monster/wp-content/uploads/2022/02/png.monster-755-370x208.png"/>
-        <a class=nav-button href="/"><b>HOME</b></a>
+    <nav><a class=nav-button href="/"><b>HOME</b></a>
         <a class=nav-button href="/pokemons"><b>POKEMONS</b></a>
         <a class=nav-button href="/moves"><b>MOVES</b></a>
         <a class=nav-button href="/teams"><b>TEAMS</b></a>
