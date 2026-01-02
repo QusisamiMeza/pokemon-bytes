@@ -48,6 +48,13 @@ front/README_FRONTEND.md
 ```
 ---
 
+## Visualización
+
+
+
+
+---
+
 ## Objetivos alcanzados
 
 - Desarrollo de un backend que expone una API REST, respetando contratos de comunicación claros entre cliente y servidor.
